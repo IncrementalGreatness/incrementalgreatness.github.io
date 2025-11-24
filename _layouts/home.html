@@ -125,6 +125,12 @@ layout: page
   body.dark-mode .service-title {
     color: #e0e0e0;
   }
+
+  .product-logo {
+    max-width: 50px;
+    margin-bottom: 15px;
+    display: block;
+  }
 </style>
 
 <div class="container-md">
@@ -135,6 +141,8 @@ layout: page
       <div class="col-md-6 mb-4">
         <div class="product-card card-featured">
           <div>
+            <img src="{{ '/assets/img/Logo-light_Atlassian_mark_brand_RGB.svg' | relative_url }}" alt="Atlassian Logo"
+              class="product-logo">
             <h3 class="card-title">Atlassian Apps</h3>
             <p class="card-content">Enhancing Jira and Confluence workflows with powerful, user-friendly tools designed
               to boost productivity.</p>
