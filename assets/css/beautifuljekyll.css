@@ -24,6 +24,20 @@ layout: null
   --mid-col: #808080;
 }
 
+body.dark-mode {
+  --page-col: #1a1a1a;
+  --text-col: #e0e0e0;
+  --link-col: #4da6ff;
+  --hover-col: #66b3ff;
+  --navbar-col: #2d2d2d;
+  --navbar-text-col: #e0e0e0;
+  --navbar-border-col: #404040;
+  --footer-col: #2d2d2d;
+  --footer-text-col: #b0b0b0;
+  --footer-link-col: #e0e0e0;
+  --footer-hover-col: #66b3ff;
+}
+
 /* --- General --- */
 
 html {
