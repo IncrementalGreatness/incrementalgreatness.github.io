@@ -529,10 +529,11 @@ img {
     % unless site.round-avatar==false %
   }
 
-  border-radius: 50%;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
+  /* border-radius: 50%; Removed to prevent clipping of hexagon logo */
+  /* box-shadow removed as per user request */
+  /* box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8); */
+  /* -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8); */
+  /* -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8); */
 
     {
     % endunless %
@@ -546,7 +547,7 @@ img {
     % unless site.round-avatar==false %
   }
 
-  border-radius: 50%;
+  /* border-radius: 50%; Removed to prevent clipping of hexagon logo */
 
     {
     % endunless %
@@ -572,9 +573,10 @@ img {
       % unless site.round-avatar==false %
     }
 
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+    /* box-shadow removed as per user request */
+    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, .8); */
+    /* -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8); */
+    /* -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8); */
 
       {
       % endunless %
