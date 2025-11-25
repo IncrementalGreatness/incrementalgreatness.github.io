@@ -12,6 +12,16 @@ layout: page
     /* Added top margin since hero is gone */
   }
 
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #333;
+  }
+
   .product-card {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -105,6 +115,10 @@ layout: page
     border-color: #404040;
   }
 
+  body.dark-mode .section-title {
+    color: #e0e0e0;
+  }
+
   body.dark-mode .card-title {
     color: #e0e0e0;
   }
@@ -136,6 +150,7 @@ layout: page
 <div class="container-md">
   <!-- Product Grid -->
   <div class="product-grid">
+    <h2 class="section-title">Our Apps</h2>
     <div class="row justify-content-center">
       <!-- Card 1: Featured -->
       <div class="col-md-6 mb-4">
