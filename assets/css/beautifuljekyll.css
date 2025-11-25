@@ -92,10 +92,12 @@
   ;
 
   /* common CSS variables */
-  --body-font: 'Lora',
+  --body-font: 'Asap Condensed',
+  'Lora',
   'Times New Roman',
   serif;
-  --header-font: 'Open Sans',
+  --header-font: 'Asap Condensed',
+  'Open Sans',
   'Helvetica Neue',
   Helvetica,
   Arial,
@@ -163,7 +165,8 @@ h4,
 h5,
 h6 {
   font-family: var(--header-font);
-  font-weight: 800;
+  font-family: var(--header-font);
+  font-weight: 600;
   line-height: 1.1;
 }
 
@@ -335,7 +338,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
+  height: 3.5rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -386,7 +389,7 @@ img {
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 3.125rem;
+    height: 4.5rem;
   }
 
   .navbar-expand-xl .navbar-nav .nav-link {
