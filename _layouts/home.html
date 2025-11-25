@@ -16,17 +16,19 @@ layout: page
     background-image: url('{{ "/assets/img/homepage-codebackground.jpg" | relative_url }}');
     background-size: cover;
     background-position: center;
-    padding: 80px 0;
+    padding: 100px 0;
     margin-bottom: 0;
     margin-top: 0;
   }
 
   .apps-wrapper {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(5px);
-    padding: 40px;
+    background: rgba(20, 20, 20, 0.75);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .product-grid {
@@ -175,6 +177,16 @@ layout: page
     margin-bottom: 15px;
     display: block;
   }
+
+  .footer-services-section {
+    background-color: #141414;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
 </style>
 
 <!-- Apps Section with Full Width Background -->
@@ -205,6 +217,7 @@ layout: page
           <div class="col-md-6 mb-4">
             <div class="product-card">
               <div>
+                <i class="fas fa-rocket product-logo" style="font-size: 40px; color: #0052cc;"></i>
                 <h3 class="card-title">Future Platforms</h3>
                 <p class="card-content">New tools for modern development ecosystems are currently in development.</p>
               </div>
@@ -220,20 +233,22 @@ layout: page
 </div>
 
 <!-- Services Section -->
-<div class="container-md">
-  <div class="services-section">
-    <div class="row">
-      <div class="col-md-4 service-item">
-        <div class="service-icon"><i class="fas fa-code"></i></div>
-        <div class="service-title">Software Development</div>
-      </div>
-      <div class="col-md-4 service-item">
-        <div class="service-icon"><i class="fas fa-cloud"></i></div>
-        <div class="service-title">Cloud Architecture</div>
-      </div>
-      <div class="col-md-4 service-item">
-        <div class="service-icon"><i class="fas fa-comments"></i></div>
-        <div class="service-title">Consulting</div>
+<div class="footer-services-section">
+  <div class="container-md">
+    <div class="services-section">
+      <div class="row">
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <div class="service-title">Software Development</div>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fas fa-cloud"></i></div>
+          <div class="service-title">Cloud Architecture</div>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fas fa-comments"></i></div>
+          <div class="service-title">Consulting</div>
+        </div>
       </div>
     </div>
   </div>
