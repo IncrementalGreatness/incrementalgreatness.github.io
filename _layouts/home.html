@@ -6,20 +6,42 @@ layout: page
 
 
 <style>
+  .apps-section-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-image: url('{{ "/assets/img/homepage-codebackground.jpg" | relative_url }}');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .apps-wrapper {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
   .product-grid {
-    margin-bottom: 60px;
-    margin-top: 60px;
-    /* Added top margin since hero is gone */
+    /* Removed margins as padding is handled by container */
   }
 
   .section-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.2rem;
     letter-spacing: 1px;
     color: #333;
+    /* Dark text for contrast on light background */
   }
 
   .product-card {
@@ -29,6 +51,7 @@ layout: page
     height: 100%;
     transition: transform 0.2s;
     background: #fff;
+    /* Solid white for cards on top of wrapper */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +70,7 @@ layout: page
   .card-title {
     font-weight: 700;
     margin-bottom: 15px;
+    color: #333;
   }
 
   .card-content {
@@ -82,8 +106,10 @@ layout: page
 
   .services-section {
     text-align: center;
-    padding: 40px 0;
-    border-top: 1px solid #eee;
+    padding: 60px 0;
+    border-top: none;
+    /* Removed border as background separation is enough */
+    background-color: transparent;
   }
 
   .service-item {
@@ -110,6 +136,10 @@ layout: page
   }
 
   /* Dark Mode Overrides */
+  body.dark-mode .apps-wrapper {
+    background: rgba(45, 45, 45, 0.95);
+  }
+
   body.dark-mode .product-card {
     background-color: #2d2d2d;
     border-color: #404040;
@@ -147,43 +177,50 @@ layout: page
   }
 </style>
 
-<div class="container-md">
-  <!-- Product Grid -->
-  <div class="product-grid">
-    <h2 class="section-title">Our Apps</h2>
-    <div class="row justify-content-center">
-      <!-- Card 1: Featured -->
-      <div class="col-md-6 mb-4">
-        <div class="product-card card-featured">
-          <div>
-            <img src="{{ '/assets/img/Logo-light_Atlassian_mark_brand_RGB.svg' | relative_url }}" alt="Atlassian Logo"
-              class="product-logo">
-            <h3 class="card-title">Atlassian Apps</h3>
-            <p class="card-content">Enhancing Jira and Confluence workflows with powerful, user-friendly tools designed
-              to boost productivity.</p>
+<!-- Apps Section with Full Width Background -->
+<div class="apps-section-container">
+  <div class="container-md">
+    <div class="product-grid">
+      <div class="apps-wrapper">
+        <h2 class="section-title">Our Apps</h2>
+        <div class="row justify-content-center">
+          <!-- Card 1: Featured -->
+          <div class="col-md-6 mb-4">
+            <div class="product-card card-featured">
+              <div>
+                <img src="{{ '/assets/img/Logo-light_Atlassian_mark_brand_RGB.svg' | relative_url }}"
+                  alt="Atlassian Logo" class="product-logo">
+                <h3 class="card-title">Atlassian Apps</h3>
+                <p class="card-content">Enhancing Jira and Confluence workflows with powerful, user-friendly tools
+                  designed
+                  to boost productivity.</p>
+              </div>
+              <div>
+                <a href="#" class="btn-primary-custom">View Apps</a>
+              </div>
+            </div>
           </div>
-          <div>
-            <a href="#" class="btn-primary-custom">View Apps</a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Card 2: Upcoming -->
-      <div class="col-md-6 mb-4">
-        <div class="product-card">
-          <div>
-            <h3 class="card-title">Future Platforms</h3>
-            <p class="card-content">New tools for modern development ecosystems are currently in development.</p>
-          </div>
-          <div>
-            <span class="coming-soon-label">Coming Soon</span>
+          <!-- Card 2: Upcoming -->
+          <div class="col-md-6 mb-4">
+            <div class="product-card">
+              <div>
+                <h3 class="card-title">Future Platforms</h3>
+                <p class="card-content">New tools for modern development ecosystems are currently in development.</p>
+              </div>
+              <div>
+                <span class="coming-soon-label">Coming Soon</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- Services Section -->
+<!-- Services Section -->
+<div class="container-md">
   <div class="services-section">
     <div class="row">
       <div class="col-md-4 service-item">
