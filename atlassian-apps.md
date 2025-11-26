@@ -2,9 +2,16 @@
 layout: page
 title: Atlassian Apps
 subtitle: Apps built to improve productivity
+full-width: true
 ---
 
 <style>
+  .apps-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
   /* App Spotlight Card Styles */
   .app-separator {
     margin-top: 10px;
@@ -27,11 +34,11 @@ subtitle: Apps built to improve productivity
   }
 
   .app-content {
-    flex: 2; /* 40% roughly */
+    flex: 5; /* 55% */
   }
 
   .app-visual-column {
-    flex: 3; /* 60% roughly */
+    flex: 4; /* 45% */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,33 +181,35 @@ subtitle: Apps built to improve productivity
   }
 </style>
 
-<h2>Jira Cloud Apps</h2>
-<hr class="app-separator">
+<div class="apps-container">
+  <h2>Jira Cloud Apps</h2>
+  <hr class="app-separator">
 
-<div class="app-spotlight-card">
-  <div class="app-content">
-    <div class="app-header">
-      <h3>Issue Quality Auditor</h3>
-      <img src="/assets/img/Jira_attribution_dark.svg" alt="Jira Badge" class="jira-badge">
+  <div class="app-spotlight-card">
+    <div class="app-content">
+      <div class="app-header">
+        <h3>Issue Quality Auditor</h3>
+        <img src="/assets/img/Jira_attribution_dark.svg" alt="Jira Badge" class="jira-badge">
+      </div>
+      <p class="app-description">Issue Quality Auditor monitors your Jira tasks in real-time, highlighting missing data without frustrating users with workflow blockers.</p>
+      <ul class="app-features">
+        <li>Define "Quality Rules" by Issue Type.</li>
+        <li>Simple UI to implement rules, no JQL required.</li>
+        <li>Instant "Pass/Fail" feedback in the sidebar.</li>
+        <li>Track project health via standard Jira dashboards.</li>
+      </ul>
+      <a href="#" class="app-cta">View Documentation</a>
     </div>
-    <p class="app-description">Issue Quality Auditor monitors your Jira tasks in real-time, highlighting missing data without frustrating users with workflow blockers.</p>
-    <ul class="app-features">
-      <li>Define "Quality Rules" by Issue Type.</li>
-      <li>Simple UI to implement rules, no JQL required.</li>
-      <li>Instant "Pass/Fail" feedback in the sidebar.</li>
-      <li>Track project health via standard Jira dashboards.</li>
-    </ul>
-    <a href="#" class="app-cta">View Documentation</a>
-  </div>
-  <div class="app-visual-column">
-      <div class="app-visual-tabs">
-          <button class="app-visual-tab active" onclick="switchTab('user')">User Sidebar View</button>
-          <button class="app-visual-tab" onclick="switchTab('admin')">Admin Configuration</button>
-      </div>
-      <div class="app-visual-container">
-        <img src="/assets/img/QualityCheck.png" alt="Issue Quality Auditor Interface" class="app-visual-img active" id="img-user">
-        <img src="/assets/img/Quality check Admin.png" alt="Issue Quality Auditor Admin Interface" class="app-visual-img" id="img-admin">
-      </div>
+    <div class="app-visual-column">
+        <div class="app-visual-tabs">
+            <button class="app-visual-tab active" onclick="switchTab('user')">User Sidebar View</button>
+            <button class="app-visual-tab" onclick="switchTab('admin')">Admin Configuration</button>
+        </div>
+        <div class="app-visual-container">
+          <img src="/assets/img/QualityCheck.png" alt="Issue Quality Auditor Interface" class="app-visual-img active" id="img-user">
+          <img src="/assets/img/Quality check Admin.png" alt="Issue Quality Auditor Admin Interface" class="app-visual-img" id="img-admin">
+        </div>
+    </div>
   </div>
 </div>
 
