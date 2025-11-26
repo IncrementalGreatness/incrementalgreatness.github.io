@@ -67,8 +67,8 @@ subtitle: Engineering Greatness into the tools you use every day
   }
 
   .engineer-img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%; /* Circle */
     border: 4px solid #333;
