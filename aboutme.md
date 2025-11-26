@@ -137,6 +137,26 @@ subtitle: Engineering Greatness into the tools you use every day
       grid-template-columns: 1fr;
     }
   }
+
+  /* Social Link Styles */
+  .social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: #ccc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+
+  .social-btn:hover {
+    border-color: #fff;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
 </style>
 
 <div class="agency-layout">
@@ -151,18 +171,23 @@ subtitle: Engineering Greatness into the tools you use every day
 
   <!-- Section 2: The Engineer -->
   <div class="engineer-section">
-    <div class="eyebrow">The Engineer</div>
+    <div class="eyebrow">The Engineer: Kamal Broomes</div>
     <div class="engineer-grid">
       <div class="engineer-img-container">
         <img src="/assets/img/kamal-headshot.jpg" alt="Kamal Broomes" class="engineer-img">
       </div>
       <div class="engineer-bio">
         <p>
-          <strong>Incremental Greatness</strong> is the work of Kamal Broomes. I am a Senior Software Engineer with a career defined by high-stakes environments—from engineering services on the Azure platform at Microsoft to analyzing systems for the Department of Defense.
+          I founded <strong>Incremental Greatness</strong> to bring enterprise-grade discipline to the technology you rely on. I am a Senior Software Engineer with a career defined by high-stakes environments—from engineering services on the Azure platform at Microsoft to analyzing systems for the Department of Defense.
         </p>
         <p>
-          I founded this studio to bring enterprise-grade discipline to the technology you rely on. While deep technical expertise is my baseline, my true strength lies in understanding the context of the problem and the people involved.
+          While deep technical expertise is my baseline, my true strength lies in understanding the context of the problem and the people involved.
         </p>
+        <div class="social-links" style="margin-top: 20px;">
+          <a href="https://www.linkedin.com/in/kamal-broomes/" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   </div>
