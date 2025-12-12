@@ -8,7 +8,7 @@ subtitle: How we handle your data
 
 **Last Updated:** December 2025
 
-Incremental Greatness ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information when you install and use our applications for the Atlassian Jira platform (the "App").
+Incremental Greatness ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information when you install and use any of our software applications available on the Atlassian Marketplace (collectively, the 'Apps').
 
 ### 1. Architecture and Data Storage (Atlassian Forge)
 
