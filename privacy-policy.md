@@ -6,7 +6,7 @@ subtitle: How we handle your data
 
 ## Privacy Policy
 
-**Last Updated:** December 2024
+**Last Updated:** December 2025
 
 This Privacy Policy describes how Incremental Greatness ("we", "us", or "our") collects, uses, and shares information about you when you use our applications and services.
 
@@ -24,8 +24,4 @@ We take reasonable measures to help protect information about you from loss, the
 
 ### Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at [incrementalgreatness@gmail.com](mailto:incrementalgreatness@gmail.com).
-
----
-
-*This is a placeholder privacy policy. Please consult with a legal professional to create a policy appropriate for your specific needs.*
+If you have any questions about this Privacy Policy, please contact us at [support@incrementalgreatness.net](mailto:support@incrementalgreatness.net).

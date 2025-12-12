@@ -6,7 +6,7 @@ subtitle: Terms of use for our applications
 
 ## End User License Agreement (EULA)
 
-**Last Updated:** December 2024
+**Last Updated:** December 2025
 
 This End User License Agreement ("Agreement") is a legal agreement between you and Incremental Greatness ("Company") for the use of our software applications and services.
 
@@ -35,8 +35,4 @@ In no event shall the Company be liable for any indirect, incidental, special, o
 
 ### 6. Contact
 
-For questions about this Agreement, contact us at [incrementalgreatness@gmail.com](mailto:incrementalgreatness@gmail.com).
-
----
-
-*This is a placeholder EULA. Please consult with a legal professional to create an agreement appropriate for your specific needs.*
+For questions about this Agreement, contact us at [support@incrementalgreatness.net](mailto:support@incrementalgreatness.net).
