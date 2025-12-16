@@ -198,7 +198,7 @@ full-width: true
         <li>Instant "Pass/Fail" feedback in the sidebar.</li>
         <li>Track project health via standard Jira dashboards.</li>
       </ul>
-      <a href="#" class="app-cta">View Documentation</a>
+      <a href="/docs/issue-quality-auditor" class="app-cta">View Documentation</a>
     </div>
     <div class="app-visual-column">
         <div class="app-visual-tabs">
